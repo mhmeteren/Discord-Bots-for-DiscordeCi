@@ -1,0 +1,81 @@
+{
+    "Categories":[
+        {
+            "name":"Moda",
+            "subCategories":[
+                ["#Ayakkabı&Canta", "👜"],
+                ["#Kadın-Giyim&Aksesuar", "👗"],
+                ["#Erkek-Giyim&Aksesuar", "👕"],
+                ["#Cocuk-Giyim&Aksesuar", "👼"]
+            ]
+        },
+        {
+            "name":"Elektronik",
+            "subCategories":[
+                ["#Telefon&Aksesuarları", "📱"],
+                ["#Bilgisayar", "💻"],
+                ["#Televizyon&Ses-Sistemleri", "📺"],
+                ["#Elektrikli-Ev-Aletleri", "🍽"],
+                ["#Beyaz-Esya",  "🤖"]
+            ]
+        },
+        {
+            "name":"Ev&yasam",
+            "subCategories":[
+                ["#Mobilya", "🪑"],
+                ["#Ev-Tekstili", "☕"],
+                ["#Mutfak-Gerecleri", "🧂"],
+                ["#Supermarket", "🍎"]
+            ]
+        },
+        {
+            "name":"Anne&Bebek",
+            "subCategories":[
+                ["#Bebek-Guvenlik", "📹"],
+                ["#Bebak-Bakım&Saglik", "🍼"],
+                ["#Bebek-Arabaları", "🎠"],
+                ["#Bebek-Giyim",  "👚"]
+            ]
+        }
+    ],
+
+    "Brands":[
+        {
+            "name":"Moda",
+            "brandlist":[
+                ["#Mavi", "😏"],
+                ["#Koton", "🤩"],
+                ["#Puma", "🥳"],
+                ["#Nike", "😊"]
+            ]
+        },
+        {
+            "name":"Elektronik",
+            "brandlist":[
+                ["#HP", "😈"],
+                ["#Casper", "👻"],
+                ["#MSI", "🔥"],
+                ["#Apple", "🍎"],
+                ["#Samsung",  "🤖"]
+            ]
+        },
+        {
+            "name":"Ev&yasam",
+            "brandlist":[
+                ["#Meltem", "🪑"],
+                ["#Mondi", "☕"],
+                ["#Bellona", "🧂"],
+                ["#Setay", "⏰"]
+            ]
+        },
+        {
+            "name":"Anne&Bebek",
+            "brandlist":[
+                ["#Civil-Baby", "😸"],
+                ["#Bebetto", "🍼"],
+                ["#Hellobaby", "🎠"],
+                ["#Baby",  "😻"]
+            ]
+        }
+    ]
+}

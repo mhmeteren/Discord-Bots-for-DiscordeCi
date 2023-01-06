@@ -1,0 +1,8 @@
+{
+    "getProduct": "http://127.0.0.1:8001/Papi/products/",
+    "productDetail": "http://127.0.0.1:8001/p/product-detail/",
+    "plists": "http://127.0.0.1:8001/Userapi/plists/",
+    "userplists": "http://127.0.0.1:8001/Userapi/userplists/",
+    "usersepet": "http://127.0.0.1:8001/Userapi/usersepet/",
+    "usersiparis": "http://127.0.0.1:8001/Userapi/usersiparis/"
+}

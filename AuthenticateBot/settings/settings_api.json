@@ -1,0 +1,4 @@
+{
+    "DiscordAcc": "http://127.0.0.1:8000/Uapi/DiscordAcc/",
+    "User": "http://127.0.0.1:8000/Uapi/User/"
+}

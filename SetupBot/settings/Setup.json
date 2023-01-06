@@ -1,0 +1,300 @@
+{
+    "Role":[
+
+        {
+            "name":"Administrator",
+            "permissions": 
+                {
+                    "administrator": true
+                },
+            "mentionable": false,
+            "hoist": true,
+            "Category": [
+                {
+                    "name":"Administrator Chatting",
+                    "Channels": [
+                        {
+                            "name": "Yonetici Sohbet",
+                            "topic": "Yonetici sohbet kanalıdır",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        }
+                    ]
+                },
+                {
+                    "name":"Server Status",
+                    "Channels": [
+                        {
+                            "name": "Server Statistics",
+                            "topic": "Yonetici anlik sunucu istatikleri goruntuleme kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Manager Bot Commands",
+                            "topic": "Yonetici bot kulanım kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                }
+            
+            ]
+            
+            
+        },
+        {
+            "name":"Employee",
+            "permissions": 
+                {
+                    "administrator": false,
+                    "add_reactions": true,
+                    "change_nickname": true,
+                    "connect": true,
+                    "move_members": true,
+                    "read_messages": true,
+                    "send_messages": true,
+                    "speak": true,
+                    "view_channel": true,
+                    "stream": true,
+                    "view_guild_insights": true,
+                    "read_message_history": true
+                },
+            "mentionable": false,
+            "hoist": true,
+            "Category": [
+                {
+                    "name":"Employee Chatting",
+                    "Channels": [
+                        {
+                            "name": "Calisan Genel",
+                            "topic": "Calisanlar icin genel sohbet kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Calisan Gorev",
+                            "topic": "Calisanlar icin gorev takip kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        },
+                        {
+                            "name": "Calisan Feedback",
+                            "topic": "Calisanlar icin geri bildirim kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                },
+                {
+                    "name":"Employee User Support",
+                    "Channels": [
+                        {
+                            "name": "Support",
+                            "topic": "Kullanıcılardan gelen yardim istekleri burda listelenir",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        }
+                    ]
+                }
+            
+            ]
+            
+        },
+        {
+            "name":"User",
+            "permissions":
+                {
+                "administrator": false,
+                "manage_threads": false,
+                "create_private_threads": false,
+                "create_public_threads": false,
+                "add_reactions": true,
+                "change_nickname": true,
+                "connect": true,
+                "read_messages": true,
+                "send_messages": true,
+                "speak": true,
+                "view_channel": true,
+                "read_message_history": true
+                },
+            "mentionable": true,
+            "hoist": true,
+            "Category": [
+                {
+                    "name":"User Feedback",
+                    "Channels": [
+                        {
+                            "name": "Kullanıcı Istek ve Oneri",
+                            "topic": "Kullanıcıların  Istek ve Onerini belirtecegi kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Kullanıcı Sikayet",
+                            "topic": "Kullanıcı sikayet kanalıdır.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                }
+            
+            ]
+            
+        },
+        {
+            "name":"UserActions",
+            "permissions":
+                {
+                "administrator": false,
+                "add_reactions": false,
+                "read_messages": false,
+                "send_messages": false,
+                "manage_messages": false,   
+                "use_application_commands": false,
+                "manage_webhooks":false,
+                "manage_events":false,
+                "manage_threads": false,
+                "create_private_threads": false,
+                "create_public_threads": false,
+                "send_messages_in_threads": false,  
+                "view_channel": true,
+                "read_message_history": true
+                },
+            "mentionable": true,
+            "hoist": true,
+            "Category": [
+                {
+                    "name":"User Guide",
+                    "Channels": [
+                        {
+                            "name": "Kategoriler",
+                            "topic": "Alisveris Kategorileri",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Markalar",
+                            "topic": "Alisveris Markalari",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                },
+                {
+                    "name":"User Support",
+                    "Channels": [
+                        {
+                            "name": "Canli Destek [BOT]",
+                            "topic": "Kullanıcı Canli Destek Kanali, Yardımcı Discord Bot ile",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Canli Destek [TEMSILCI]",
+                            "topic": "Kullanıcı Canli Destek Kanali, Gercek Temsilci ile",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                },
+                {
+                    "name":"User Category and Brand Notifications",
+                    "Channels": [
+                        {
+                            "name": "Category Notifications",
+                            "topic": "Kullanıcıların takip etigi Kategoriler.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Brand Notifications",
+                            "topic": "Kullanıcıların takip etigi markalar.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                },
+                {
+                    "name":"User Shopping and Other",
+                    "Channels": [
+                        {
+                            "name": "User Shopping",
+                            "topic": "Kullanıcıların alışveriş başlatma kanalı.",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                          
+                
+                        },
+                        {
+                            "name": "Product Tracking",
+                            "topic": "Kullanıcıların Ürün takip ve diğer işlemler kanalı",
+                            "slowmode_delay": 0,
+                            "permissions": false
+                
+                        }
+                    ]
+                }
+            
+            ]
+            
+        }
+    ],
+
+    "DefaultUser":[
+        {
+            
+            "CategoryName":"DefaultUser",
+            "permissions":
+            {
+            "administrator": false,
+            "add_reactions": false,
+            "manage_messages": false,   
+            "use_application_commands": false,
+            "manage_webhooks":false,
+            "manage_events":false,
+            "manage_threads": false,
+            "create_private_threads": false,
+            "create_public_threads": false,
+            "send_messages_in_threads": false, 
+            "read_messages": true,
+            "send_messages": true,
+            "view_channel": true,
+            "read_message_history": true
+            },
+            "Channels": [
+                {
+                    "name": "DefaultUser Channels",
+                    "topic": "Yeni Kullanıcı Kanalıdır",
+                    "slowmode_delay": 0
+                  
+        
+                }
+            ]
+            
+        }
+    ]
+}

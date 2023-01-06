@@ -1,0 +1,7 @@
+{   
+    "TOKEN": "BotTOKEN",
+    "FirmaID":6,
+    "CategoryChannel":"kategoriler",
+    "BrandsChannel":"markalar",
+    "UserRole":["User", "UserActions"]
+}

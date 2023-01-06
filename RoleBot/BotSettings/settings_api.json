@@ -1,0 +1,4 @@
+{
+    "DeadUser": "http://127.0.0.1:8000/Uapi/DeadUser",
+    "UyeAccPerm": "http://127.0.0.1:8000/Uapi/UyeAccPerm"
+}

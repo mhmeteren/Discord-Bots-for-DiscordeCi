@@ -1,0 +1,6 @@
+{
+    "UyeAcc": "http://127.0.0.1:8000/Uapi/UyeAcc/",
+    "UyeAccControl": "http://127.0.0.1:8000/Uapi/UyeAccControl/",
+    "logs": "http://127.0.0.1:8000/Uapi/logs/",
+    "FirmaID": 6
+}
